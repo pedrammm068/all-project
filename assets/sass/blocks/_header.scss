@@ -1,0 +1,80 @@
+.header { 
+height: 200vh;
+.header__all{
+   width: 100%;
+padding: 100px;
+}
+
+.header__all__animation {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, #0005);
+}
+
+
+
+.header__nav {
+    background-color: $nav;
+box-shadow: 0px 3px 26px $shadoo;
+position: fixed;
+width: 100%;
+display: flex;
+padding: 20px;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+  }
+  .header__nav__left{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  .header__nav__right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+  }
+}
+.animation{
+    .animation__rgb{
+        position: relative;
+width: 300px;
+height: 300px;
+background: linear-gradient(
+    45deg,
+    $anim 10%,
+    transparent 10%,
+    transparent 50%,
+    $anim 50%,
+    $anim 60%,
+    transparent 60%,
+    transparent 100%);
+    background-size: 40px 40px;
+    transform: rotate(calc(var(--i) * 90deg));
+    animation: animate 0.3s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            background-position: 0;
+          }
+          100% {
+            background-position: 40px;
+          }
+        }
+        @media only screen and (max-width: 768px) {
+            .container .box {
+              width: 200px;
+              height: 200px;
+            }
+          }
+        
+}
+
+.jsh {
+
+    display: none;
+}
