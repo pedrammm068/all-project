@@ -1,8 +1,16 @@
-.header { 
-
-&__text{
-
+.all{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex
+;
+;
 }
+
+.header { 
+  width: 100%;
 
 &__nav {
     background-color: $nav;
@@ -97,20 +105,21 @@ display: none;
     border-radius: 20% 10%;
   }
 }
-// .text {
-//   right: -8px;
-//     background-color: black;
-//     position: absolute;
-//     height: 100px;
-//   display: flex;
-//   width: 500px;
-//   flex-direction: column;
-//   margin-top: 10px;
-//   padding-top: 10px;
-//   padding-left: 15px;
-//     gap: 18px;
-//     list-style-type: none;
-//   }
+.text {
+  right: -8px;
+    background-color: black;
+    position: absolute;
+    height: 100px;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+    gap: 18px;
+    list-style-type: none;
+    display: none;
+  }
 }
 
 
