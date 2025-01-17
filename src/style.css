@@ -20,4 +20,11 @@ display: none !important ;
 .peer{
     pointer-events: none;
 
+
+}
+ @media (    max-width: 760px){
+    #root{
+     background-image: none !important ;
+     background-color: cadetblue;
+    }
 }

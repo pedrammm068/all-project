@@ -4,11 +4,12 @@
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  display: flex
-;
-;
+  display: flex  ;
+  max-width: 1348px
 }
-
+.hide{
+  display: none;
+}
 .header { 
   width: 100%;
 
@@ -22,6 +23,7 @@ padding: 10px 8px;
 justify-content: space-between;
 align-items: center;
 z-index: 1000;
+max-width: 1344px
 
 }
 
